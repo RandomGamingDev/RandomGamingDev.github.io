@@ -1,0 +1,14 @@
+:root {
+  --background-color: black;
+  --default-color: white;
+}
+
+.mode {
+  background-color: var(--background-color);
+  color: var(--default-color);
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: var(--default-color);
+    text-decoration: none;
+  }

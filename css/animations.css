@@ -1,0 +1,54 @@
+@keyframes fadeIn {
+  from {
+    position: absolute;
+    top: 100px;
+    opacity: 0;   
+    }
+  to {
+    position: absolute;
+    top: 0px;
+    opacity: 1;
+    }   
+}
+
+.fadeIn-4s {
+    animation-name: fadeIn;
+    animation-duration: 4s;
+}
+
+@keyframes delayedFadeIn {
+  0% {
+    opacity: 0%;
+  }
+  50% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+.delayedFadeIn-4s {
+  animation-name: delayedFadeIn;
+  animation-duration: 8s;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+.typewriter {
+  overflow: hidden;
+  border-right: .15em solid orange;
+  white-space: nowrap;
+  margin: 0 auto;
+  animation: 
+    typing 4s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
