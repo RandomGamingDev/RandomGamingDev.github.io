@@ -13,7 +13,7 @@ async function Blog() {
     }
     for (var post = 0; post < posts.length - 1; post++) {
         let postElements = posts[post].split('|');
-        blog.innerHTML += `
+        projects.innerHTML += `
             <div style="display: flex; justify-content: center; padding-top: 50px;">
                 <div onClick="GetPostText(${ post })" style="border: thin solid var(--default-color); border-radius: 25px; width: fit-content; text-align: center;">
                     <img src="${ postElements[0] }" width="500em" style="padding: 25px;"/>
