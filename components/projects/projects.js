@@ -29,5 +29,5 @@ async function GetPostText(postNum) {
     let posts = postsTxt.split('\n');
 
     let projects = document.getElementById("projects");
-    projects.innerHTML = await GetText(posts[postNum].split('|')[2]);
+    projects.innerHTML = await GetText(posts[postNum].split('|')[2]); 
 }

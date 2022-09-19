@@ -9,7 +9,7 @@ document.write(`
             <button type="button" class="btn btn-dark" onClick="learnMore()" id="learnMore">Learn More</button>
         </div>
     </div>
-    <div style="padding-bottom: 40em"></div>
+    <div style="padding-bottom: 100em"></div>
     <div id="about">
         <div style="display: flex; justify-content: center;">
             <div style="width: fit-content; text-align: center;">
