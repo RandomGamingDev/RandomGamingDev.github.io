@@ -1,7 +1,7 @@
 document.write(`
     <div style="display: flex; justify-content: center;">
         <div style="padding-top: 100px; width: fit-content; text-align: center;">
-            <h1 class="typewriter" style="height: 120%">Welcome to RandomGamingDev</h1>  
+            <h1 class="typewriter" style="height: 120%; font-size: 3.5vw;">Welcome to RandomGamingDev</h1>  
         </div>
     </div>
     <div class="delayedFadeIn-4s" style="display: flex; justify-content: center;">
